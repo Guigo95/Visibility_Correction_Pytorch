@@ -1,7 +1,10 @@
 # Visibility_Correction_Pytorch
+
+Model to correct visibility artefact in Pytorch using FPN, ASPP, and pretrained Resunet, to optimize <br/>;
+Modified from: https://github.com/ellisdg/3DUnetCNN and https://www.kaggle.com/iafoss/hubmap-pytorch-fast-ai-starter <br/>;
+<br/>;
 User guide:
-* Model to correct visibility artefact in Pytorch using FPN, ASPP, and pretrained Resunet, to optimize
-* Modified from: https://github.com/ellisdg/3DUnetCNN and https://www.kaggle.com/iafoss/hubmap-pytorch-fast-ai-starter
+
 * Create the trainingset and testset folder as tr and ts
 * Create a model and results folder to store trained models and reconstrcted model.
 * Modify the parameter of the model using the config file
