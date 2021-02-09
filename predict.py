@@ -15,7 +15,7 @@ from scipy.io.matlab import mio
 from config import *
 from data_prepare import DataGenerator
 
-path_data ='C:/Users/Guillaume/DL/Data/training_feuille_exp_4/Ts/'
+path_data ='Ts/'
 
 save_path = "results/"
 

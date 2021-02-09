@@ -19,7 +19,7 @@ import torch
 use_cuda = torch.cuda.is_available()
 device = torch.device("cuda:0" if use_cuda else "cpu")
 torch.backends.cudnn.benchmark = True
-path_data = 'C:/Users/Guillaume/DL/Data/training_feuille_exp_4/Tr4/'
+path_data = 'Tr/'
 n_gpus = 1
 
 
